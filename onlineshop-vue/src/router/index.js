@@ -7,8 +7,8 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: "/", component: LandingPage },
-    { path: "/product", component: ProductPage },
     { path: "/about", component: AboutPage },
+    {path : "/products", component: ProductPage} 
   ],
 })
 export default router;
