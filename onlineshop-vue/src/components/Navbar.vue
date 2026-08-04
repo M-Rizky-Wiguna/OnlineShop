@@ -1,11 +1,13 @@
 <template>
+  <div class="navbar">
+    <h2>SMK Yadika Soreang -- Online Shop</h2>
   <nav>
-    <h2>SMK Yadika</h2>
     <RouterLink to="/">Landing</RouterLink>|
     <RouterLink to="/products">Products</RouterLink>|
     <RouterLink to="/about">About</RouterLink>
   </nav>
-  <hr />
+</div>
+<hr />
 </template>
 <script setup></script>
 <style scoped>
@@ -15,5 +17,12 @@ h2 {
   -webkit-text-fill-color: transparent;
   font-size: 24px;
   margin-right: 20px;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f9fa;
 }
 </style>
