@@ -9,20 +9,21 @@
     </div>
     <div class="container">
       <div class="kualitas">
-        <p>V</p>
+        <p>✔</p>
         <h3>Kualitas Terjamin</h3>
         <p>Produk yang dijual di online shop ini memiliki kualitas yang terjamin dan dapat dipercaya.</p>
       </div>
       <div class="kualitas">
-        <p>V</p>
+        <p>💰</p>
         <h3>Harga Terjangkau</h3>
         <p>Harga produk yang dijual di online shop ini sangat terjangkau dan bersahabat dengan kantong siswa.</p>
       </div>
     </div>
     <div class="sekolah">
-        <p>V</p>
+        <p>🏪</p>
         <h3>AMBIL DI SEKOLAH</h3>
         <p>Ambil produk di sekolah untuk menghemat ongkos kirim</p>
     </div>
   </main>
 </template>
+

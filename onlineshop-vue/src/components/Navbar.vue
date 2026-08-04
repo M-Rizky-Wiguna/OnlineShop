@@ -8,4 +8,12 @@
   <hr />
 </template>
 <script setup></script>
-<style scoped></style>
+<style scoped>
+h2 {
+  background: linear-gradient(to right, #0011ff, #0f0038);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 24px;
+  margin-right: 20px;
+}
+</style>
