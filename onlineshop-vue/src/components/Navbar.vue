@@ -7,7 +7,7 @@
     <RouterLink to="/about">About</RouterLink>
   </nav>
 </div>
-<hr />
+
 </template>
 <script setup></script>
 <style scoped>
