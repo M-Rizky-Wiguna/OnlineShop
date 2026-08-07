@@ -19,7 +19,7 @@ function tambahKeKeranjang(nama) {
     <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" />
     <h3>{{ nama }}</h3>
     <p>Rp {{ harga.toLocaleString("id-ID") }}</p>
-     <button @click="tambahKeKeranjang(nama)">Tambah ke Keranjang</button>
+     <button @click="tambahKeKeranjang(nama)">👜</button>
   </div>
   
   <div v-if="gambarDipilih" class="preview-overlay" @click="tutupPreview">
@@ -57,9 +57,8 @@ function tambahKeKeranjang(nama) {
   border-radius: 8px;
 }
 button{
-    background-color: rgb(42, 85, 165);
-    border-radius: 15px;
-    font-size: 16px;
-    
+  margin-left: 160px;
+  border-radius: 100%;
+  font-size: 16px;  
 }
 </style>

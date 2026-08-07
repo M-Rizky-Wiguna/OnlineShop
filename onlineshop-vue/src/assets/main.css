@@ -5,7 +5,7 @@ body{
 .main {
     text-align: center;
     padding: 20px;
-    background: linear-gradient(to right, cyan, rgb(0, 47, 255));
+    background: linear-gradient(to right, #0084ff, #000438);
     border-radius: 16px;
     margin-left: 50px;
     margin-right: 50px;

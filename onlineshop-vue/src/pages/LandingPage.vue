@@ -24,6 +24,9 @@
         <h3>AMBIL DI SEKOLAH</h3>
         <p>Ambil produk di sekolah untuk menghemat ongkos kirim</p>
     </div>
+    <video controls width="1000" loop>
+      <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+    </video>
   </main>
 </template>
 
