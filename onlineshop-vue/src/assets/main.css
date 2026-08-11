@@ -7,13 +7,14 @@ body{
     padding: 20px;
     background: linear-gradient(to right, #0084ff, #000438);
     border-radius: 16px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    margin-top: -13px
 }
   .btn {
   background-color: #ffd900;
   border-radius: 15px;
-  font-family:'MedievalSharp', cursive;
   font-size: 16px;
   padding: 10px 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -29,18 +30,28 @@ body{
 .kualitas {
   text-align: center;
   padding: 20px;
-  background: white;
+  background: rgb(17, 0, 255);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
+  margin-top: 19px;
+  margin-left: 20px;
+  color: aliceblue;
+}
+.kualitas:hover{
+  transform: scale(1.05);
+
 }
 .sekolah {
   text-align: center;
   padding: 20px;
-  background: white;
+  background: rgb(17, 0, 255);
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   margin-top: 20px;
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
+  color: white;
+}
+.sekolah:hover{
+  transform: scale(1.05);
 }

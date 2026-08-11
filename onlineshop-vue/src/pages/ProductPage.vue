@@ -13,7 +13,7 @@ const DaftarProduk = [
     nama: "kacu",
     harga: 80000,
     gambar:
-      "https://png.pngtree.com/recommend-works/png-clipart/20240726/ourmid/pngtree-illustration-of-a-red-and-white-scout-tie-png-image_13216179.png",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZFCT-OCuJ6NSrsQhaXrw0_bk_6RQF0MBiTUoLKBML1w&s=10",
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const DaftarProduk = [
 </script>
 <template>
   <main>
-    <h1>Yang tersedia hari ini</h1>
+    <h1 class="main">Yang tersedia hari ini</h1>
     <div class="grid">
       <ProductList
         v-for="produk in DaftarProduk"
@@ -58,13 +58,5 @@ const DaftarProduk = [
   flex-wrap: wrap;
   gap: 16px;
 }
-h1 {
-  text-align: center;
-  background: linear-gradient(to right, #0084ff, #000438);
-  color: white;
-  padding: 30px;
-  border-radius: 16px;
-  margin-left: 50px;
-  margin-right: 50px;
-}
+
 </style>
