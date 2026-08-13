@@ -1,13 +1,13 @@
 <template>
   <div class="navbar">
     <h3>SMK Yadika Soreang -- Online Shop</h3>
-  <nav>
-    <RouterLink to="/">Landing</RouterLink>|
-    <RouterLink to="/products">Products</RouterLink>|
-    <RouterLink to="/about">About</RouterLink>|
-    <RouterLink to="/contact">Contact</RouterLink>
+  </div>
+  <nav class="jarak">
+    <RouterLink to="/" class="link">Landing</RouterLink>|
+    <RouterLink to="/products" class="link">Products</RouterLink>|
+    <RouterLink to="/about" class="link">About</RouterLink>|
+    <RouterLink to="/contact" class="link">Contact</RouterLink>
   </nav>
-</div>
 
 </template>
 <script setup></script>
@@ -25,4 +25,15 @@ h3 {
   align-items: center;
   margin-right: 20px;
 }
+.jarak{
+  text-align: right;
+  
+}
+.link{
+  text-decoration: none;
+}
+.link:hover{
+
+}
+
 </style>
