@@ -10,6 +10,7 @@ body{
     margin-left: 20px;
     margin-right: 20px;
     color: white;
+    margin-top: 10px;
 }
   .btn {
   background-color: #ffd900;
@@ -22,5 +23,5 @@ body{
   font-family: 'Arial', sans-serif;
 }
 .btn:hover{
-  transform: 1,29scale(),
+
 }

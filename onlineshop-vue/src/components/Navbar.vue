@@ -27,13 +27,16 @@ h3 {
 }
 .jarak{
   text-align: right;
+  margin-top: -40px;
   
 }
 .link{
   text-decoration: none;
+  color :rgb(81, 81, 82);
 }
 .link:hover{
-
+  text-decoration: underline;
+  color: blue;
 }
 
 </style>
