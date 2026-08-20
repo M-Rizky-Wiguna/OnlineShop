@@ -27,7 +27,7 @@ function tambahKeKeranjang(nama) {
   </div>
 </template>
 <style scoped>
-.card {
+/* .card {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 14px;
@@ -60,5 +60,5 @@ button{
   margin-left: 160px;
   border-radius: 100%;
   font-size: 16px;  
-}
+} */
 </style>

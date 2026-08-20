@@ -43,7 +43,7 @@ const CardList = [
   </main>
 </template>
 <style scoped>
-video {
+/* video {
   margin-top: 16px;
   border-radius: 10px;
   display: flex;
@@ -62,5 +62,5 @@ video {
   padding-left:20px;
   padding-right:20px;
   width: 200px;
-}
+} */
 </style>

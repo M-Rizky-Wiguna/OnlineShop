@@ -14,7 +14,7 @@
   </main>
 </template>
 <style scoped>
-.content {
+/* .content {
   text-align: start;
   font-size: 18px;
   margin-top: 20px;
@@ -31,5 +31,5 @@ img {
 .cerita{
   justify-content: baseline;
   display: flex;
-}
+} */
 </style>

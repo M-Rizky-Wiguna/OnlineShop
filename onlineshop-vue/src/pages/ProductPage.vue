@@ -53,10 +53,10 @@ const DaftarProduk = [
   </main>
 </template>
 <style scoped>
-.grid {
+/* .grid {
   display: flex;
   flex-wrap: wrap;
   gap: 16px;
-}
+} */
 
 </style>
