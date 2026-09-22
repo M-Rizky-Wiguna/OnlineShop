@@ -4,6 +4,6 @@ const tahun = new Date().getFullYear();
 <template>
     <hr />
   <footer>
-    <small>&copy; {{ tahun }} SMK Yadika. All rights reserved.</small>
+    <small class="text-muted text-gray-700">&copy; {{ tahun }} SMK Yadika. All rights reserved.</small>
   </footer>
   </template>

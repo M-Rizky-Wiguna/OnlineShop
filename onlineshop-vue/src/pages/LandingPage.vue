@@ -27,12 +27,12 @@ const CardList = [
 <template>
   <main>
     <div
-      class="bg-radial-[at_25%_25%] from-white to-zinc-900 to-75% bg-center text-center bg-gradient-to-r from-mist-950 to-mist-800 text-white p-10 text-lg"
+      class=" bg-center text-center bg-[url(public/p.jpg)] text-white p-10 text-lg"
     >
-      <h2 class=" text-[30px] font-bold text-black font-mono">
+      <h2 class=" text-[30px] font-bold  font-mono">
         Selamat Datang di online shop sekolah
       </h2>
-      <p class="text-black">belanja produk sekolah dengan mudah dan nyaman</p>
+      <p class="">belanja produk sekolah dengan mudah dan nyaman</p>
       <RouterLink
         to="/products"
         class="bg-indigo-800 hover:bg-indigo-400 b text-white font-bold py-2 px-4 pt-2 rounded-[10px] mt-4 inline-block"
