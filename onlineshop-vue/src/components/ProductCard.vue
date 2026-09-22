@@ -13,17 +13,20 @@ function tambahKeKeranjang(nama) {
  suara.play()
  alert(`${nama} ditambahkan ke keranjang!`)
 }
+function beliProduk(nama) {
+  alert(`Anda membeli ${nama}!`);
+}
 </script>
 <template>
-  <div class="rounded-[20px] shadow-md p-4 bg-gray-800 text-white hover:bg-gray-700 transition duration-300 gap-2 w-[200px] h-[300px] mb-4">
+  <div class=" text-center rounded-[20px] shadow-md p-4 bg-gray-800 text-white hover:bg-gray-700 transition duration-300 gap-2 w-[200px] h-[300px] mb-4">
     <div class=" w-[200px] h-[150px] mb-4 flex rounded-[6px] cursor-pointer">
       <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" />
     </div>
     <h3>{{ nama }}</h3>
     <p>Rp {{ harga.toLocaleString("id-ID") }}</p>
-    <button @click="tambahKeKeranjang(nama)">👜</button>
-    <div class="flex justify-center">
-     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click="tambahKeKeranjang(nama)">Beli</button>
+    <div class="flex justify-center gap-2 mt-2">
+    <button @click="tambahKeKeranjang(nama)" class="text-start  bg-yellow-500 hover:bg-yellow-700 text-white font-bold rounded-full">👜</button>
+     <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" @click="beliProduk(nama)">Beli</button>
     </div>
   </div>
 

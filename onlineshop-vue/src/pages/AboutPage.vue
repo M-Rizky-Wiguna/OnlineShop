@@ -1,14 +1,31 @@
+<script setup>
+defineProps(["cerita"]);
+</script> 
 <template>
   <main>
-    <h1 class="bg-radial-[at_25%_25%] from-white to-zinc-900 to-69% bg-center text-center bg-gradient-to-r from-mist-950 to-mist-800 text-white p-10 text-3xl font-bold ">Tentang Kami</h1>
-    <div class="text-center ml-30 text-lg pl-2 pt-2 bg-gray-800 mr-200 rounded">
-      <h2>Cerita kami</h2>
+    <h1
+      class="bg-radial-[at_25%_25%] from-white to-zinc-900 to-69% bg-center text-center bg-gradient-to-r from-mist-950 to-mist-800 text-white p-10 text-3xl font-bold"
+    >
+      Tentang Kami
+    </h1>
+    <h2 class="cerita text-center mr-200 text-2xl font-bold">Cerita Kami</h2>
+    <div class="container justify-baseline flex">
+    <p class="text-lg text-slate-400 ml-4 text-center ml-10 mr-57">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+        voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Quisquam, voluptatum.
+        lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+        voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
+        elit. Quisquam, voluptatum.
+      </p>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqZ3MDbFVYr9es80unlye5bHEQ9nUWhWlS0RJelkM8A&s=10"
+        alt="images"
+        class="bg-white w-300 h-70 rounded-lg shadow-md  mb-10"
+      />
     </div>
-      <p>OnlineShop ini dikelola langsung oleh Siswa Yadika soreang </p>
-      <div class="bg-gray-800 rounded-lg p-4  shadow-md text-white hover:bg-gray-700 transition duration-300 w-[400px] h-[300px] ml-70">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Kopdes_Merah_Putih_Bentangan_Klaten.jpg" alt="Kopdes Merah Putih" />
-      </div>
-
   </main>
 </template>
 <style scoped>
