@@ -29,12 +29,12 @@ const daftarkariawan = [
       Tentang Kami
     </h1>
 
-    <h2 class="cerita text-white text-center mr-200 text-2xl font-bold">
+    <h2 class=" mt-10 cerita text-white text-center mr-170 text-2xl font-bold">
       Cerita Kami
     </h2>
 
     <div class="container justify-baseline flex">
-      <p class="text-lg text-slate-400 ml-4 text-center ml-10 mr-57">
+      <p class="text-lg text-slate-400 ml-4 text-center  mr-57">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
         voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
         Quisquam, voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing
@@ -46,7 +46,7 @@ const daftarkariawan = [
       </p>
 
       <img
-        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlqZ3MDbFVYr9es80unlye5bHEQ9nUWhWlS0RJelkM8A&s=10"
+        src="/public/logo.ico"
         alt="images"
         class="bg-white w-300 h-70 rounded-lg shadow-md mb-10"
       />

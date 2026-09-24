@@ -20,7 +20,7 @@ const CardList = [
     image: "🏫",
     LandingCard: "Ambil Disekolah",
     FooterCard:
-      "agar tidak meemrlukan ongkir saat pengiriman lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
+      "agar tidak memerlukan ongkir saat pengiriman lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod.",
   },
 ];
 </script>

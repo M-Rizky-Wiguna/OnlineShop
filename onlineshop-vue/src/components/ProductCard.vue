@@ -19,8 +19,8 @@ function beliProduk(nama) {
 </script>
 <template>
   <div class=" text-center rounded-[20px] shadow-md p-4 bg-gray-800 text-white hover:bg-gray-700 transition duration-300 gap-2 w-[200px] h-[300px] mb-4">
-    <div class=" w-[200px] h-[150px] mb-4 flex rounded-[6px] cursor-pointer">
-      <img :src="gambar" :alt="nama" @click="bukaPreview(gambar)" />
+    <div class=" w-[200px] ml-2 h-[150px] mb-4 flex cursor-pointer">
+      <img :src="gambar" class="rounded-lg" :alt="nama" @click="bukaPreview(gambar)" />
     </div>
     <h3>{{ nama }}</h3>
     <p>Rp {{ harga.toLocaleString("id-ID") }}</p>
@@ -35,18 +35,6 @@ function beliProduk(nama) {
   </div>
 </template>
 <style scoped>
-/* .card {
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  padding: 14px;
-  width: 200px;
-  text-align: center;
-}
-.card img {
-  width: 100%;
-  border-radius: 6px;
-  cursor: pointer;
-}
 .preview-overlay {
   position: fixed;
   top: 0;
@@ -64,9 +52,4 @@ function beliProduk(nama) {
   max-height: 80%;
   border-radius: 8px;
 }
-button{
-  margin-left: 160px;
-  border-radius: 100%;
-  font-size: 16px;  
-} */
 </style>
