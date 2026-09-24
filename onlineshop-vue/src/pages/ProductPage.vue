@@ -41,7 +41,7 @@ const DaftarProduk = [
 <template>
   <main>
     <h1 class=" mb-5 bg-radial-[at_25%_25%] from-white to-zinc-900 to-69% bg-center text-center bg-gradient-to-r from-mist-950 to-mist-800 text-black p-10 text-3xl font-bold ">Yang tersedia hari ini</h1>
-    <div class="flex flex-wrap gap-4 justify-center">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 p-6 flex flex-wrap gap-4 justify-center">
       <ProductList
         v-for="produk in DaftarProduk"
         :key="produk.id"

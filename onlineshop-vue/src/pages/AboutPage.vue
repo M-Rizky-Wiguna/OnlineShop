@@ -10,7 +10,7 @@ const daftarkariawan = [
     id: 2,
     nama: "Rizky",
     posisi: "CEO",
-    img:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3SpbZ4UnBOZrb0InNHNlOEr-FSYR0M_N0hFW6pejFC8OGE61gGWZgnug&s=10"
+    img:""
   },
   {
     id: 3,
