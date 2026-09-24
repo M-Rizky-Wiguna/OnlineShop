@@ -9,7 +9,7 @@
       class="text-start mt-10 ml-20 bg-gray-800 text-white p-10 shadow-md rounded-lg w-[400px] h-[280px]"
     >
     
-      <h2 class="text-xl font-bold">Info Kontak</h2>
+      <h2 class="text-xl font-bold text-center mb-5">Info Kontak</h2>
         <div v-for="kontak in daftarKontak" :key="kontak.id" class="mt-4">
             <div class="mt-4">
             <p>📍Alamat:</p>
@@ -63,6 +63,7 @@
       </button>
     </form>
   </div> 
+
 </template>
 <script setup>
 const daftarKontak = [

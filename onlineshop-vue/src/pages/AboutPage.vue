@@ -33,7 +33,7 @@ const daftarkariawan = [
       Cerita Kami
     </h2>
 
-    <div class="container justify-baseline flex">
+    <div class="container justify-between flex">
       <p class="text-lg text-slate-400 ml-4 text-center  mr-57">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
         voluptatum. Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -53,7 +53,7 @@ const daftarkariawan = [
     </div>
 
     <h2
-      class="cerita text-white text-center bg-slate-700 p-4 ml-100 mr-100 rounded-lg text-2xl font-bold"
+      class="cerita text-white text-center bg-slate-700 p-4 rounded-lg text-2xl font-bold"
     >
       Tim Kami
     </h2>
