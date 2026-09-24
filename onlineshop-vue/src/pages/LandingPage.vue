@@ -48,8 +48,8 @@ const CardList = [
         :key="data.id"
         class="bg-gray-800 rounded-lg p-4 shadow-md text-white hover:bg-gray-700 transition duration-300"
       >
-        <h2>{{ data.image }}</h2>
-        <h3>{{ data.LandingCard }}</h3>
+        <h1>{{ data.image }}</h1>
+        <h1>{{ data.LandingCard }}</h1>
         <p>{{ data.FooterCard }}</p>
       </div>
     </div>
