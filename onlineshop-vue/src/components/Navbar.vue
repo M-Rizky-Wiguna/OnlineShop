@@ -2,8 +2,15 @@
   <nav
     class="relative flex shadow-md lg:px-8 bg-gradient-to-r from-mist-950 to-mist-900 justify-between items-center h-16 text-white"
   >
-    <div class="relative flex h-16 items-center text-white gap-5">
-      <h3 class="text-2xl font-bold">KyyShop</h3>
+    <div class="flex gap-x-3">
+      <img
+        src="/public/logo.ico"
+        alt="Logo"
+        class="w-10 h-10 rounded-full"
+        onclick="window.location.href = '/'"
+      />
+    </div>
+    <div class="flex h-16 items-center text-white">
     </div>
 
     <div class="flex gap-x-3 text-lg font-semibold items-center">
@@ -38,6 +45,12 @@
       >
         Contact
       </RouterLink>
+      <RouterLink
+        to="/testimoni"
+        class="text-white hover:text-blue-500"
+        active-class="text-blue-500"
+        >Testimoni</RouterLink
+      >
     </div>
   </nav>
 </template>

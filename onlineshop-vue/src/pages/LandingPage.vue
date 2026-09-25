@@ -30,7 +30,7 @@ const CardList = [
       class=" bg-center text-center bg-[url(public/p.jpg)] text-white p-10 text-lg"
     >
       <h2 class=" text-[30px] font-bold  font-mono">
-        Selamat Datang di online shop sekolah
+        Selamat Datang Di KyyShop
       </h2>
       <p class="">belanja produk sekolah dengan mudah dan nyaman</p>
       <RouterLink

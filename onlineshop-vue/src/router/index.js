@@ -3,6 +3,7 @@ import LandingPage from "../pages/LandingPage.vue"
 import ProductPage from "../pages/ProductPage.vue"
 import AboutPage from "../pages/AboutPage.vue"
 import ContactPage from "@/pages/ContactPage.vue"
+import TestimoniPage from "@/pages/testimoni.vue"
 
 const router = createRouter({
   history: createWebHistory(),
@@ -10,7 +11,8 @@ const router = createRouter({
     { path: "/", component: LandingPage },
     { path: "/about", component: AboutPage },
     {path : "/products", component: ProductPage},
-    {path :"/contact", component: ContactPage}
+    {path :"/contact", component: ContactPage},
+    {path :"/testimoni", component: TestimoniPage}
   ],
 })
 export default router;
